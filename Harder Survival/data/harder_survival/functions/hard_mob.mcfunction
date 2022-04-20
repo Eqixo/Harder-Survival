@@ -4,6 +4,7 @@ execute if score hard_mobs Hardcore_Mobs matches 3 run loot replace entity @e[ty
 execute if score hard_mobs Hardcore_Mobs matches 3 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!hard_mob] armor.legs loot harder_survival:entities/hard_mode_leggings
 execute if score hard_mobs Hardcore_Mobs matches 3 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!hard_mob] armor.feet loot harder_survival:entities/hard_mode_boots
 execute if score hard_mobs Hardcore_Mobs matches 3 run loot replace entity @e[type=#harder_survival:sword_helders,sort=random,tag=!hard_mob] weapon.mainhand loot harder_survival:entities/hard_mode_sword
+execute if score baby_mobs Hardcore_Mobs matches 0 run effect give @s minecraft:resistance 1000000 1
 
 # Tag the mob
 tag @s add hard_mob

@@ -4,6 +4,7 @@ execute if score baby_mobs Hardcore_Mobs matches 0 run loot replace entity @e[ty
 execute if score baby_mobs Hardcore_Mobs matches 0 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!baby_mob] armor.legs loot harder_survival:entities/baby_mode_leggings
 execute if score baby_mobs Hardcore_Mobs matches 0 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!baby_mob] armor.feet loot harder_survival:entities/baby_mode_boots
 execute if score baby_mobs Hardcore_Mobs matches 0 run loot replace entity @e[type=#harder_survival:sword_helders,sort=random,tag=!baby_mob] weapon.mainhand loot harder_survival:entities/baby_mode_sword
+execute if score baby_mobs Hardcore_Mobs matches 0 run effect give @s minecraft:absorption 1000000
 
 # Tag the mob
 tag @s add baby_mob
