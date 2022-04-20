@@ -1,13 +1,12 @@
 # Equipping the mob in armor and weapons
-execute if score easy_mobs Hardcore_Mobs matches 1 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!easy_mob] armor.head loot harder_survival:entities/easy_mode_helmet
-execute if score easy_mobs Hardcore_Mobs matches 1 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!easy_mob] armor.chest loot harder_survival:entities/easy_mode_chestplate
-execute if score easy_mobs Hardcore_Mobs matches 1 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!easy_mob] armor.legs loot harder_survival:entities/easy_mode_leggings
-execute if score easy_mobs Hardcore_Mobs matches 1 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!easy_mob] armor.feet loot harder_survival:entities/easy_mode_boots
-execute if score easy_mobs Hardcore_Mobs matches 1 run loot replace entity @e[type=#harder_survival:sword_helders,sort=random,tag=!easy_mob] weapon.mainhand loot harder_survival:entities/easy_mode_sword
-execute if score baby_mobs Hardcore_Mobs matches 0 run effect give @s minecraft:regeneration 1000000 1
+execute if score easy_mobs Hardcore_Mobs matches 1 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!Hardcore_Mob] armor.head loot harder_survival:entities/easy_mode_helmet
+execute if score easy_mobs Hardcore_Mobs matches 1 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!Hardcore_Mob] armor.chest loot harder_survival:entities/easy_mode_chestplate
+execute if score easy_mobs Hardcore_Mobs matches 1 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!Hardcore_Mob] armor.legs loot harder_survival:entities/easy_mode_leggings
+execute if score easy_mobs Hardcore_Mobs matches 1 run loot replace entity @e[type=#harder_survival:hostile,sort=random,tag=!Hardcore_Mob] armor.feet loot harder_survival:entities/easy_mode_boots
+execute if score easy_mobs Hardcore_Mobs matches 1 run loot replace entity @e[type=#harder_survival:sword_helders,sort=random,tag=!Hardcore_Mob] weapon.mainhand loot harder_survival:entities/easy_mode_sword
 
 # Tag the mob
-tag @s add easy_mob
+execute if score easy_mobs Hardcore_Mobs matches 1 run tag @s add Hardcore_Mob
 
 # Add 1 to the variable
 scoreboard players add easy_mobs Hardcore_Mobs 1
