@@ -11,4 +11,4 @@ scoreboard players add hardcore_mobs Hardcore_Mobs 0
 scoreboard players add random_effect Hardcore_Mobs 0
 
 # Telling the datapack is loaded
-tellraw @a {"text":"Harder Survival Datapack is loaded","bold":true,"italic":true,"color":"#FF0000","hoverEvent":{"action":"show_text","contents":"v1.6.1"}}
+tellraw @a {"text":"Harder Survival Datapack is loaded","bold":true,"italic":true,"color":"#FF0000","hoverEvent":{"action":"show_text","contents":"v1.7.1"}}
