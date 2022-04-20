@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+		  "type": "item",
+          "name": "minecraft:netherite_helmet",
+          "weight": 50,
+          "functions": [
+		  {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+			{
+              "function": "set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.9
+              }
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "protection"
+              ],
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+		},
+		{
+		  "type": "item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 150,
+          "functions": [
+		  {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+			{
+              "function": "set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.9
+              }
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "protection"
+              ],
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.6
+                }
+              ]
+            }
+          ]
+		}
+	  ]
+	}
+  ]
+}
