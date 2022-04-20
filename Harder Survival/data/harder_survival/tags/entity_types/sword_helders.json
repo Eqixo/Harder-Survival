@@ -1,0 +1,13 @@
+{
+	"values":
+	[
+        "minecraft:enderman",
+        "minecraft:husk",
+        "minecraft:piglin",
+        "minecraft:vex",
+        "minecraft:wither_skeleton",
+        "minecraft:zombie",
+        "minecraft:zombie_villager",
+        "minecraft:zombified_piglin"
+	]
+}
