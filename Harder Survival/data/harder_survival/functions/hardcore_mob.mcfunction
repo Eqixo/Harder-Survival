@@ -12,4 +12,4 @@ tag @s add hardcore_mob
 scoreboard players add hardcore_mobs Hardcore_Mobs 1
 
 # Reset the variable
-execute if score hardcore_mobs Hardcore_Mobs matches 17 run scoreboard players set hardcore_mobs Hardcore_Mobs 0
+execute if score hardcore_mobs Hardcore_Mobs matches 29 run scoreboard players set hardcore_mobs Hardcore_Mobs 0
