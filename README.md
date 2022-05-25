@@ -19,5 +19,7 @@ Add :
     - Bigger variety of effects
     - *(Stronger effects ?)*
 
-Fix :
-    - [ ]
+Fix : 
+  - Errors :
+    - [ ] https://github.com/Silver-Runer/Harder-Survival/issues/1
+    - [ ] https://github.com/Silver-Runer/Harder-Survival/issues/2
