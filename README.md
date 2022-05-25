@@ -23,3 +23,8 @@ Fix :
   - Errors :
     - [ ] https://github.com/Silver-Runer/Harder-Survival/issues/1
     - [ ] https://github.com/Silver-Runer/Harder-Survival/issues/2
+
+Clean :
+  - Code :
+    - All mcfunctions
+    - Names, repositories...
