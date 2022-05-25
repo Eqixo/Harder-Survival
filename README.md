@@ -20,4 +20,4 @@ Add :
     - *(Stronger effects ?)*
 
 Fix :
-  -
+    - [ ]
