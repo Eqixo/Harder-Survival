@@ -11,4 +11,4 @@ scoreboard players add hardcore_mobs Hardcore_Mobs 0
 scoreboard players add random_effect Hardcore_Mobs 0
 
 # Telling the datapack is installed
-tellraw @a {"text":"Harder Survival Datapack has been correctly installed","bold":true,"italic":true,"color":"#FF0000","hoverEvent":{"action":"show_text","contents":"v1.7.1"}}
+tellraw @a {"text":"Harder Survival Datapack has been correctly installed","bold":true,"italic":true,"color":"#FF0000","hoverEvent":{"action":"show_text","contents":"v1.7.2"}}

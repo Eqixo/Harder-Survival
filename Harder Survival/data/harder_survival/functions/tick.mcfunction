@@ -1,4 +1,5 @@
 # Detecting mobs and redirecting them to their level
+execute as @e[type=#harder_survival:hostile,tag=!Boosted_Health,limit=1] at @s run function harder_survival:more_health
 execute as @e[type=#harder_survival:hostile,tag=!Hardcore_Mob,sort=random] at @s run function harder_survival:baby_mob
 execute as @e[type=#harder_survival:hostile,tag=!Hardcore_Mob,sort=random] at @s run function harder_survival:easy_mob
 execute as @e[type=#harder_survival:hostile,tag=!Hardcore_Mob,sort=random] at @s run function harder_survival:normal_mob
