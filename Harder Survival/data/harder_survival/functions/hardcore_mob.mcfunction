@@ -8,8 +8,9 @@ execute if score hardcore_mobs Hardcore_Mobs matches 5 run loot replace entity @
 # Tag the mob
 execute if score hardcore_mobs Hardcore_Mobs matches 5 run tag @s add Hardcore_Mob
 
-# Add 1 to the variable
+# Add 1 to the variables
 scoreboard players add hardcore_mobs Hardcore_Mobs 1
+execute if score hardcore_mobs Hardcore_Mobs matches 29 run scoreboard players add mini_boss Hardcore_Mobs 1
 
 # Reset the variable
 execute if score hardcore_mobs Hardcore_Mobs matches 29 run scoreboard players set hardcore_mobs Hardcore_Mobs 0

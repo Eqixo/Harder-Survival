@@ -1,1 +1,1 @@
-tellraw @a {"text":"Is working !"}
+scoreboard objectives setdisplay sidebar Hardcore_Mobs
