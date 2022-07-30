@@ -1,6 +1,6 @@
 # **Harder Survival**
 ## Because Minecraft isn't hard enough.
-![GitHub tag](https://img.shields.io/github/v/tag/Silver-Runer/Harder-Survival)
+![GitHub tag](https://img.shields.io/github/v/tag/Silver-Runer/Harder-Survival?style=for-the-badge)
 
 This is a datapack that upgrades mobs by giving them armor, effects and weapons.
 
