@@ -22,7 +22,7 @@ Add :
 Fix : 
   - Errors :
     - [X] https://github.com/Silver-Runer/Harder-Survival/issues/1
-    - [ ] https://github.com/Silver-Runer/Harder-Survival/issues/2
+    - [X] https://github.com/Silver-Runer/Harder-Survival/issues/2
     - [X] https://github.com/Silver-Runer/Harder-Survival/issues/3
 
 Clean :
